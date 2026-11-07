@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Jarvis</h1>
-<p align="center"><b>A voice-controlled AI assistant for your Mac, with a glowing HUD.</b><br>
+<p align="center"><b>A voice-controlled AI assistant for your Mac and Windows 10 and 11 but only text chat is supported currently, with a glowing HUD.</b><br>
 Say "Hey Jarvis" or clap twice. It listens, thinks, acts on your Mac and talks back in a natural British voice.<br>
 Runs on free tiers, or fully offline.</p>
 
