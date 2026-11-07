@@ -1,0 +1,29 @@
+{
+  "good morning": {
+    "ask": "Good morning. In one or two short sentences: today's date, my calendar events today and reminders due today."
+  },
+  "work mode": {
+    "do": [
+      {"tool": "open_app", "name": "Safari"},
+      {"tool": "open_app", "name": "Notes"},
+      {"tool": "set_volume", "level": 25}
+    ],
+    "say": "Work mode."
+  },
+  "movie mode": {
+    "do": [
+      {"tool": "set_volume", "level": 45},
+      {"tool": "open_app", "name": "TV"},
+      {"tool": "apple_shortcut", "name": "Lights Dim"}
+    ],
+    "say": "Enjoy the film."
+  },
+  "lock screen": {
+    "do": [{"shell": "pmset displaysleepnow"}]
+  },
+  "end of day": {
+    "do": [{"tool": "quit_app", "name": "Slack"}, {"tool": "set_volume", "level": 20}],
+    "say": "Day done.",
+    "ask": "Tell me in one sentence what is on my calendar tomorrow."
+  }
+}

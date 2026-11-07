@@ -1,0 +1,13 @@
+# Core (Apple Silicon Mac)
+numpy
+requests
+sounddevice
+onnxruntime
+openwakeword
+mlx-whisper
+
+# Optional, install what you want:
+#   anthropic      use Claude as the brain
+#   kokoro-onnx    free, natural British voice   (then: python jarvis.py --install-kokoro)
+#   piper-tts      community "Jarvis" voice      (then: python jarvis.py --install-voice)
+#   rumps          menu-bar mode
