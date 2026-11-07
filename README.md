@@ -52,6 +52,23 @@ mkdir -p ~/.jarvis && echo 'GROQ_API_KEY=gsk_your_key_here' > ~/.jarvis/env
 python jarvis.py --check
 python jarvis.py
 ```
+You need a Windows 10 or 11, and about 3 GB of free disk space for the speech model. 
+
+```terminal
+# 1. Create a Python 3.12 virtual environment
+py -3.12 -m venv .venv
+
+# 2. Install the dependencies
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+
+# 3. Get your own key from https://console.groq.com/keys
+#    Replace the placeholder below. The key lasts for this PowerShell session.
+$env:GROQ_API_KEY = "gsk_your_key_here"
+
+# 4. Check that the script loads, then start Jarvis
+.\.venv\Scripts\python.exe jarvis.py --help
+.\.venv\Scripts\python.exe jarvis.py --text
+```
 
 Say **"Hey Jarvis"** (or clap twice), wait for the chime, and speak. Press `F` in the HUD for fullscreen.
 
