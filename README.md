@@ -52,7 +52,7 @@ mkdir -p ~/.jarvis && echo 'GROQ_API_KEY=gsk_your_key_here' > ~/.jarvis/env
 python jarvis.py --check
 python jarvis.py
 ```
-You need a Windows 10 or 11, and about 3 GB of free disk space for the speech model. 
+You need a Windows 10 or 11, and about 3 GB of free disk space for the speech model. Be advised that Jarvis is supported only for text chat only for devices using Windows. In the future Windows will have more accessibility. 
 
 ```terminal
 # 1. Create a Python 3.12 virtual environment
